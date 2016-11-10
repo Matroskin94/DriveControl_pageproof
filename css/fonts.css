@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Plantagenet Cherokee;
+    src: url(../fonts/Plantagenet Cherokee.ttf);
+}
+@font-face {
+    font-family: Minion Pro;
+    src: url(../fonts/Minion Pro.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: GothaProIta;
+    src: url(../fonts/Gotham_Cyrillic/GothaProMed.otf);
+}
+@font-face {
+    font-family: Quicksand_Bold;
+    src: url(../fonts/quicksand/Quicksand_Bold.otf);
+}
+@font-face {
+    font-family: GothaProReg;
+    src: url(../fonts/Gotham_Cyrillic/GothaProReg.otf);
+}
+@font-face {
+    font-family: gothamThin;
+    src: url(../fonts/ufonts.com_gotham-thin.ttf);
+}

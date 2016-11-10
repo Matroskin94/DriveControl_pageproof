@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<head class="no-js" lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Dmitry Dadeco">
+	<link rel="shortcut icon" href="">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+	
+	<!-- Pop-up window -->
+	<div class="modal_window" id="pro-window">
+		<div class="close_field">
+			<div class="close_modal_btn"><img src="img/close_modal.png"></div>
+		</div>
+		<div class="main_mess_text">
+			<p>Версия <span>PRO</span> - нет ограничений сроком на месяц</p>
+			<p>Версия <span>PRO+</span> - нет ограничений сроком на год</p>
+		</div>
+		<div class="bright_mess_text">
+			<p>С вами свяжутся<br> в ближайшее время!</p>
+		</div>
+		<div class="button_field">
+			<div class="leave_req">
+			<p>Оставить заявку</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="modal_window" id="answ-window">
+		<div class="close_field">
+			<div class="close_modal_btn"><img src="img/close_modal.png"></div>
+		</div>
+		<div class="bright_mess_text bright_large">
+			<p>Бесплатная ограниченная версия</p>
+		</div>
+		<div class="main_mess_text mess_text_marg">
+			<p>Для пользования сервисом <br> в полном объёме приобретите <span>PROаккаунт</span></p>
+		</div>
+		<div class="button_field">
+			<div class="leave_req">
+				<p>Оставить заявку</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="modal_overlay" id="modal-back">
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<article class="advertising col-xs-12"></article>
+		</div>		
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<header class="col-xs-12">
+						<div class="row top">
+							<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+								<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+								<label class="btn-menu" for="hmt">
+									<span class="first"></span>
+									<span class="second"></span>
+									<span class="third"></span>
+								</label>
+								<ul class="hidden-menu">
+									<li class="active"><a href="news.html">Новости</a></li>
+									<li><a href="howToStart.html" class="green">Как начать</a></li>
+									<li><a href="#">Автошколы</a></li>
+									<li><a href="#">Вопрос-ответ</a></li>
+									<li><a href="#">О проекте</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+							<div class="logo col-lg-2 col-md-2 col-sm-2 col-xs-4"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+							<div class="DriveControl col-lg-5 col-md-4 col-sm-4 col-xs-6"><h1>DriveControl</h1></div>
+							<div class="noLie col-lg-3 col-md-4 col-sm-4 col-xs-7">Автошкола без обмана!</div>	
+							<div class="socialNetworks col-lg-2 col-md-2 col-sm-2 col-xs-12">
+								<div class="hidden-lg hidden-md hidden-sm col-xs-4"></div>
+								<div class="forma1 col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
+								<div class="facebook col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
+								<div class="vk col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
+								<div class="ok col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
+							</div>						
+						</div>
+						<div class="row bottom">
+							<nav class="col-lg-7 col-xs-12">
+								<ul class="col-xs-12">
+									<li><a href="news.html">Новости</a></li>
+									<li><a href="howToStart.html" class="green">Как начать</a></li>
+									<li><a href="#">Автошколы</a></li>
+									<li><a href="#">Вопрос-ответ</a></li>
+									<li><a href="#">О проекте</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</nav>
+							<div class="cabinet col-lg-5 col-xs-12">
+								<div class="student col-sm-12 col-xs-12">
+									<div class="col-xs-12"><div class="exit">
+										<a href="#">Выйти из личного профиля</a>
+									</div></div>
+									
+									</form>
+								</div>
+							</div>
+						</div>
+					</header>
+				</div>
+				<div class="row">
+					<article class="answerAndQuestiens col-xs-12">
+						<div class="col-xs-12 how_start">
+								<ul class="nav nav-tabs">
+									<li><a href="#mess-tab" data-toggle="tab">Сообщения</a><div class="dot"></div></li>
+									<li class="active"><a href="#prof-tab" data-toggle="tab">Профиль</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div class="tab-pane" id="mess-tab">
+										<ul class="accordion-list">
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="big_dot"></div>
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Елена</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<div class="row">
+														<div class="col-md-12 mess_field">
+															<p>Цена</p>
+															<form>
+																<input type="text" name="cost">
+															</form>
+															<p>Комментарии</p>
+															<div class="comment_field">
+																<div class="comment_settings">
+																	<div class="redact_img_group">
+																		<div class="redact_img"><img src="img/redact_text_buttons/B.png"></div>						<div class="redact_img"><img src="img/redact_text_buttons/I.png"></div>
+																		<div class="redact_img"><img class="redact_img_u" src="img/redact_text_buttons/U.png"></div>
+																	</div>
+																	<div class="redact_img_group">
+																		<div class="redact_img"><img src="img/redact_text_buttons/align_left.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/align_center.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/align_right.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/align_justify.png"></div>
+																	</div>
+																	<div class="redact_img_group">
+																		<div class="redact_img"><img src="img/redact_text_buttons/marked_list.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/numbered_list.png"></div>
+																	</div>
+																	<div class="redact_img_group">
+																		<div class="redact_img"><img src="img/redact_text_buttons/indent_left.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/indent_right.png"></div>
+																	</div>
+																	<div class="redact_img_group">
+																		<div class="redact_img"><img src="img/redact_text_buttons/link.png"></div>
+																		<div class="redact_img"><img src="img/redact_text_buttons/unlink.png"></div>
+																	</div>
+																</div>
+																<form action="">
+																		<textarea rows="" cols="" name="text"></textarea>
+																</form>
+															</div>
+															<div class="col-md-12">
+																	<div class="row">
+																		<div class="button_field">
+																		<div class="col-xs-6">
+																			<div class="answ_btn my_btn" id="answ-btn">
+																				Ответить
+																			</div>
+																		</div>
+																		<div class="col-xs-6">
+																			<div class="close_btn my_btn">
+																				Закрыть
+																			</div>
+																		</div>
+																		</div>
+																	</div>
+																
+															</div>
+														</div>
+														
+													</div>
+												</div>
+											</li>
+
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="big_dot"></div>
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Елена</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<p>Item1 text</p>
+												</div>
+											</li>
+
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="big_dot"></div>
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Владимир Иванович</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<p>Item1 text</p>
+												</div>
+											</li>
+
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Ольга</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<p>Item1 text</p>
+												</div>
+											</li>
+
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Иван</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<p>Item1 text</p>
+												</div>
+											</li>
+
+											<li class="accordion-item">
+												<div class="accordion-item-bg accordion-trigger col-xs-12">
+													<div class="row">
+														<div class="col-md-6 col-xs-6 user">
+															<p><span class="user_bold">Сан Саныч</span> (Витебск, Витебская область)</p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+														<div class="col-md-6 col-xs-6 user-right">
+															<p>Обучение на категорию <span class="user_bold"> B </span></p>
+															<p class="user_small">03.11.2012</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-inner col-xs-12">
+													<p>Item1 text</p>
+												</div>
+											</li>
+
+										</ul>
+									</div>
+									<div class="tab-pane active" id="prof-tab">
+										<div class="row">
+											<!-- Профиль -->
+											<div class="profile_container">
+
+												<div class="col-md-4 col-xs-12">
+													<div class="logo_container">
+														<img src="img/profile/professional_logo.png">
+													</div>
+													<div class="img_container">
+														<div class="img_style"><img src="img/profile/prof_img1.png"></div>
+														<div class="img_style"><img src="img/profile/prof_img2.png"></div>
+														<div class="img_style"><img src="img/profile/prof_img3.png"></div>
+														<div class="img_style"><img src="img/profile/prof_img4.png"></div>
+
+													</div>
+												</div>
+												<div class="col-md-8 col-xs-12 school_data">
+													<div class="row">
+														<div class="col-sm-4 col-md-4 col-lg-4 col-xs-4">
+															<p>Срок размещения</p>
+														</div>
+														<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+															<p id="found-date">30.12.2016</p>
+														</div>
+														<div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+															<div class="pro_btn school_btn" id="pro-btn">
+																proверсия
+															</div>
+														</div>
+														<div class="clearfix"></div>
+														<hr>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Название</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>Новый поворот</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>УНП</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>12345678</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>ФИО</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>Александр Витальевич Тимошин</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Область</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>Витебская</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Населённый пункт</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>Витебск</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Категории</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>А, В, С</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Адрес</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>пр-т Победы 21</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>E-mail</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>vfg@gmail.com</p>
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-xs-4 part_hr">
+															<p>Телефон</p>
+															<hr>
+														</div>
+														<div class="col-xs-8 part_hr">
+															<p>+375291115234</p>
+															<hr>
+														</div>
+													</div>
+
+													<div class="bottom_buttons">
+														<div class="row">
+															<div class="col-md-2 part_hr">
+																<div class="school_btn redact_btn">
+																	Редактировать
+																</div>
+															</div>
+															<div class="col-md-3 col-md-offset-7 part_hr">
+																<div class="school_btn pass_btn">
+																	Изменить пароль
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+	
+									</div>
+								</div>
+						</div>
+					</article>
+				</div>
+				<div class="row">
+					<footer class="col-xs-12">
+						<div class="footerText row">
+							<div class="copyright col-sm-7 col-xs-5">
+								<p>© Copyright 2014-2016, Vladimir Garelik. All Rights Reserved.</p>
+							</div>
+							<div class="qr col-sm-5 col-xs-7">
+								<div class="qrText col-lg-10 col-md-10 col-sm-9 col-xs-9">QR код приложения</div>
+								<div class="col-lg-2 col-md-2 col-xs-3"><img src="img/qr.png" alt="qr-code"></div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="toTop"><img src="img/toTop.png" alt="toTop"></div>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/bootstrap.min.js"></script>
+  <script src="js/app.js"></script> 
+</body>
+</html>

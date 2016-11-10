@@ -1,0 +1,94 @@
+
+.select-items{
+	position: relative;
+	display: inline-block;
+	width: 210px;
+	border: 1px solid #565656;
+	background-color: white;
+	margin-right: 10px;
+	font-family: Roboto-Light;
+}
+
+.select-items.select_items_large{
+	width: 255px;
+	margin-right: 42px;
+	float: right;
+}
+
+.select-items.select_items_large .drop{
+	width: 255px;
+}
+
+.select-items:hover {
+	cursor:pointer;
+}
+
+.select-items.active{
+	border-bottom-color: transparent;
+}
+
+.select-items a {
+	color:#949494;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.choosen {
+	margin:4px 15px 4px 10px;
+	padding-top:4px;
+	padding-bottom: 4px;
+	line-height: 2.1em;
+}
+
+.list-right {
+	display: inline-block;
+}
+
+.drop {
+	padding: 0;
+	width:210px;
+	display: none;
+	position:absolute;
+	background-color: #fff;
+	margin: 0 0 0 -1px;
+	border:1px solid #565656;
+	z-index: 99;
+}
+
+
+
+#season{
+	width:180px;
+}
+
+#season > .drop{
+	width:180px;
+}
+
+.drop li {
+	list-style:none;
+	display: block;
+	color:#959595;
+	padding: 4px 15px 4px 10px;
+}
+
+.drop a {
+	text-decoration: none;
+	color:#959595;
+}
+
+.drop li:hover {
+	background-color: #e8e8e8;
+}
+
+
+.clock{
+	position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.list-img {
+	position: absolute;
+	right:0px;
+}
