@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -3457,6 +3457,7 @@ img.redact_img_u{
   overflow: hidden;
   background-color: #B3B3B3;
   margin-right:31px;
+  text-align: center;
 }
 
 .school_img:hover .del_img{
@@ -3623,7 +3624,7 @@ img.redact_img_u{
 
 .checked img{
     float: right;
-    margin-left: 20px;
+    margin-left: 19px;
     margin-top: 3px;
 
 }
@@ -3705,7 +3706,7 @@ input[type=checkbox]:checked + label:before {
 
 .class_boxes{
   margin-top:8px;
-  margin-right: 30px;
+  margin-right: 28px;
   float: right;
 }
 
