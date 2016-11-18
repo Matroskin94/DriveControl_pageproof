@@ -556,6 +556,9 @@
     margin-top: 15px;
     margin-left: 15px;
   }
+  .req_line.new_school_line label.checkbox {
+  	margin-left: 0;
+  }
 }
 
 
@@ -614,7 +617,7 @@
 
 @media (max-width: 460px){
 	.new_school_line .name_field input[type=text], .new_school_line .name_field input[type=e-mail],.new_school_line .name_field input[type=password]{
-		width: 220px;	
+		width: 220px;
 	}
 	.register_school {
 		padding: 30px 5px 40px 3px;
@@ -632,7 +635,7 @@
 
 @media (max-width: 340px){
 	.new_school_line .name_field input[type=text], .new_school_line .name_field input[type=e-mail],.new_school_line .name_field input[type=password]{
-		width: 200px;	
+		width: 200px;
 	}
 	.name_field .select-items.select_items_large, .name_field .select-items.select_items_large .drop{
 		width: 200px;

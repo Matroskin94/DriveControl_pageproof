@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-	
+
 	<!-- Pop-up window -->
 	<div class="modal_window" id="pro-window">
 		<div class="close_field">
@@ -55,7 +55,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<article class="advertising col-xs-12"></article>
-		</div>		
+		</div>
 		<div class="row">
 			<div class="container">
 				<div class="row">
@@ -79,14 +79,14 @@
 							</div>
 							<div class="logo col-lg-2 col-md-2 col-sm-2 col-xs-4"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
 							<div class="DriveControl col-lg-5 col-md-4 col-sm-4 col-xs-6"><h1>DriveControl</h1></div>
-							<div class="noLie col-lg-3 col-md-4 col-sm-4 col-xs-7">Автошкола без обмана!</div>	
+							<div class="noLie col-lg-3 col-md-4 col-sm-4 col-xs-7">Автошкола без обмана!</div>
 							<div class="socialNetworks col-lg-2 col-md-2 col-sm-2 col-xs-12">
 								<div class="hidden-lg hidden-md hidden-sm col-xs-4"></div>
 								<div class="forma1 col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
 								<div class="facebook col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
 								<div class="vk col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
 								<div class="ok col-md-3 col-sm-6 col-xs-1"><a href="#"><div class="imgBlock"></div></a></div>
-							</div>						
+							</div>
 						</div>
 						<div class="row bottom">
 							<nav class="col-lg-7 col-xs-12">
@@ -104,7 +104,7 @@
 									<div class="col-xs-12"><div class="exit">
 										<a href="#">Выйти из личного профиля</a>
 									</div></div>
-									
+
 									</form>
 								</div>
 							</div>
@@ -115,13 +115,13 @@
 					<article class="answerAndQuestiens col-xs-12">
 						<div class="col-xs-12 how_start">
 								<ul class="nav nav-tabs">
-									<li><a href="#mess-tab" data-toggle="tab">Сообщения</a><div class="dot"></div></li>
-									<li class="active"><a href="#prof-tab" data-toggle="tab">Профиль</a></li>
+									<li class="active"><a href="#mess-tab" data-toggle="tab">Сообщения</a><div class="dot"></div></li>
+									<li><a href="#prof-tab" data-toggle="tab">Профиль</a></li>
 								</ul>
 
 								<!-- Tab panes -->
 								<div class="tab-content">
-									<div class="tab-pane" id="mess-tab">
+									<div class="tab-pane active" id="mess-tab">
 										<ul class="accordion-list">
 											<li class="accordion-item">
 												<div class="accordion-item-bg accordion-trigger col-xs-12">
@@ -146,33 +146,7 @@
 															</form>
 															<p>Комментарии</p>
 															<div class="comment_field">
-																<div class="comment_settings">
-																	<div class="redact_img_group">
-																		<div class="redact_img"><img src="img/redact_text_buttons/B.png"></div>						<div class="redact_img"><img src="img/redact_text_buttons/I.png"></div>
-																		<div class="redact_img"><img class="redact_img_u" src="img/redact_text_buttons/U.png"></div>
-																	</div>
-																	<div class="redact_img_group">
-																		<div class="redact_img"><img src="img/redact_text_buttons/align_left.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/align_center.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/align_right.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/align_justify.png"></div>
-																	</div>
-																	<div class="redact_img_group">
-																		<div class="redact_img"><img src="img/redact_text_buttons/marked_list.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/numbered_list.png"></div>
-																	</div>
-																	<div class="redact_img_group">
-																		<div class="redact_img"><img src="img/redact_text_buttons/indent_left.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/indent_right.png"></div>
-																	</div>
-																	<div class="redact_img_group">
-																		<div class="redact_img"><img src="img/redact_text_buttons/link.png"></div>
-																		<div class="redact_img"><img src="img/redact_text_buttons/unlink.png"></div>
-																	</div>
-																</div>
-																<form action="">
-																		<textarea rows="" cols="" name="text"></textarea>
-																</form>
+																<textarea rows="" cols="" name="text" class="tinymce"></textarea>
 															</div>
 															<div class="col-md-12">
 																	<div class="row">
@@ -189,10 +163,10 @@
 																		</div>
 																		</div>
 																	</div>
-																
+
 															</div>
 														</div>
-														
+
 													</div>
 												</div>
 											</li>
@@ -291,7 +265,7 @@
 
 										</ul>
 									</div>
-									<div class="tab-pane active" id="prof-tab">
+									<div class="tab-pane" id="prof-tab">
 										<div class="row">
 											<!-- Профиль -->
 											<div class="profile_container">
@@ -432,7 +406,7 @@
 												</div>
 											</div>
 										</div>
-	
+
 									</div>
 								</div>
 						</div>
@@ -457,6 +431,7 @@
 	<div id="toTop"><img src="img/toTop.png" alt="toTop"></div>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/bootstrap.min.js"></script>
-  <script src="js/app.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.3.12/tinymce.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

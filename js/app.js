@@ -33,7 +33,6 @@ function show_mess(e) {
 };
 function hide_mess(e) {
   var win_id = "#" + $(e.target).parent().parent().parent().prop("id") + "";
-  console.log(e.target);
   if(win_id == "#undefined" && $("#pro-window").attr("style")[9] == "b"){
     win_id = "#pro-window";
   }else if(win_id == "#undefined" && $("#answ-window").attr("style")[9] == "b"){
@@ -63,5 +62,22 @@ $(document).ready(function(){
      answ_btn.onclick = show_mess;
      overlay_btn.onclick = hide_mess;
    }
+
+  tinymce.init({
+    selector: ".tinymce",
+    height: 180,
+    skin: 'lightgray',
+  plugins: [
+    "advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker"
+    /*"searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+    "table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"*/
+  ],
+
+  toolbar1: "bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent | link unlink",
+
+  menubar: false,
+  toolbar_items_size: 'small',
+  statusbar: false
+  });
 
 });
