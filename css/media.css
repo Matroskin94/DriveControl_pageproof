@@ -65,6 +65,13 @@
 	.gallery-image:nth-child(4n) {
 		margin: 0 100px 50px 0;
 	}
+	.free-share__right-column_text {
+		width: 70%;
+	}
+	.register-school__setup-app_links,
+	.register-school__setup-app_soon {
+		padding: 0;
+	}
 }
 @media screen and (max-width:992px)  {
 	header .socialNetworks {
@@ -170,8 +177,27 @@
 		padding: 0;
 		margin-left: -4.5px;
 	}
+	.register_school {
+		padding: 30px 5px 40px 5px;
+	}
+	.free-share__left-column, .free-share__right-column {
+		width: 100%;
+		margin-left: 0;
+	}
+	.free-share__left-column {
+		margin-bottom: 30px;
+	}
+	.register-school__setup-app_links {
+		float: none;
+		margin-top: 10px;
+	}
+	.register-school__setup-app_soon {
+		text-align: left;
+		margin-top: 5px;
+	}
 }
 @media screen and (max-width:768px)  {
+
 	header .socialNetworks {
 	 text-align: center;
 	}
@@ -558,6 +584,43 @@
   }
   .req_line.new_school_line label.checkbox {
   	margin-left: 0;
+  }
+  .free-share__left-column_text,
+  .free-share__right-column_text {
+  	width: 100%;
+  }
+  .free-share__left-column_img {
+	position: absolute;
+    float: none;
+    top: 50%;
+    left: 50%;
+    margin-left: -41px;
+    margin-top: -33px;
+  }
+  .free-share__download {
+  	width: 100%;
+  	float: none;
+  	padding-bottom: 25px;
+  }
+  .free-share__download_text {
+  	display: block;
+  }
+  .free-share__download_google-play,
+  .free-share__download_ios {
+  	display: inline-block;
+  	vertical-align: top;
+  }
+  .free-share__download_ios {
+  	margin-left: 8px;
+  }
+  .register-school_title,
+  .register-school__setup-app {
+  	text-align: center;
+  }
+  .register-school__setup-app_links,
+  .register-school__setup-app_soon {
+  	padding: 0;
+  	text-align: center;
   }
 }
 
