@@ -195,6 +195,51 @@
 		text-align: left;
 		margin-top: 5px;
 	}
+
+	.howToWork-learner .learner-drive-control {
+		padding: 30px 70px 0 30px;
+	}
+
+	.howToWork-learner .simple div:first-child {
+		padding: 0 70px 0 30px;
+		border: 0;
+	}
+
+	.howTowork__news-dc_main {
+		height: auto;
+		padding: 0;
+	}
+
+	.howTowork__news-dc_main .news-dc__main_img-wrap {
+		padding: 0;
+	}
+
+	.howTowork__news-dc_main .news-dc__main_img-wrap img {
+		max-width: 100%;
+	}
+
+	.news-dc__title_howToWork,
+	.news-dc__see-all-wrap_howToWork,
+	.news-dc__list_item_howToWork,
+	.news-dc__list_list_howToWork {
+		padding: 0;
+	}
+
+	.news-dc__list_item_howToWork {
+		margin-bottom: 10px;
+	}
+
+	.smi__howToWork {
+		padding: 0;
+	}
+
+	.smi__howToWork .title .left {
+		margin-left: 0;
+	}
+
+	.smi__howToWork .smiInfo {
+		padding: 0;
+	}
 }
 @media screen and (max-width:768px)  {
 
@@ -549,7 +594,7 @@
 		right: 5px;
 		top: 5px;
 		background: #000;
-		z-index: 1000
+		z-index: 1000;
 	}
 }
 
@@ -622,6 +667,19 @@
   	padding: 0;
   	text-align: center;
   }
+
+    .howToWork-banner .socialNetworks {
+	  top: 9px;
+	}
+	.howToWork-banner {
+		padding: 15px;
+	}
+
+	.howToWork-learner__title {
+		text-align: left;
+		padding-left: 0
+	}
+
 }
 
 

@@ -469,12 +469,6 @@ section {
   padding: 0;
   min-height: 71px;
 }
-.smiInfo {
-  font-family: Roboto-Medium;
-  font-size: 0.6em;
-  text-align: left;
-  padding: 10px 25px 0 25px;
-}
 footer {
   background: #fff;
   margin-top: 20px;
@@ -3887,4 +3881,46 @@ input[type=radio]:checked + label:before {
 }
 .new_school_data img {
   max-width: 100%;
+}
+
+.howToWork-banner {
+  padding: 35px 15px 0;
+}
+
+.howToWork-banner .socialNetworks {
+  right: 24px;
+  top: 22px;
+}
+
+.howToWork-banner .socialNetworks .imgBlock {
+  margin-top: 12px;
+}
+
+.howToWork-banner img {
+  width: 100%;
+}
+
+.howToWork-learner .learner-drive-control p::before,
+.howToWork-learner .simple p::before  {
+  background: url(../img/check-mark.png);
+  margin: 0;
+}
+
+.howToWork-learner {
+  margin-top: 30px;
+}
+
+.howToWork-learner__title {
+  text-align: center;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.register_school {
+  padding-bottom: 10px;
+}
+
+.howTowork__news-dc_main {
+  padding-right: 25px;
 }
